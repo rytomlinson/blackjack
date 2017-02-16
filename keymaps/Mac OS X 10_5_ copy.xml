@@ -53,6 +53,12 @@
   <action id=":cursive.actions.paredit/wrap-square">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="open_bracket" />
   </action>
+  <action id=":cursive.repl.actions/run-last-sexp">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl e" />
+  </action>
+  <action id=":cursive.repl.actions/run-top-sexp">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl f" />
+  </action>
   <action id="tasks.switch" />
   <action id="tasks.switch.toolbar" />
 </keymap>
